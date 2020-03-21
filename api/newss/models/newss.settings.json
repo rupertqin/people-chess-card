@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "news",
+  "info": {
+    "name": "新闻动态"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Cover": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Tag": {
+      "type": "enumeration",
+      "enum": [
+        "dongtai",
+        "zixun",
+        "pinpai"
+      ]
+    }
+  }
+}
