@@ -20,6 +20,18 @@
         "热点资讯"
       ],
       "default": "产业动态"
+    },
+    "权重": {
+      "type": "integer",
+      "default": 0,
+      "max": 100,
+      "min": 0
+    },
+    "标题": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 1
     }
   }
 }

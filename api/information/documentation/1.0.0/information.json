@@ -516,7 +516,8 @@
     "schemas": {
       "Information": {
         "required": [
-          "id"
+          "id",
+          "标题"
         ],
         "properties": {
           "id": {
@@ -532,10 +533,22 @@
               "产业动态",
               "热点资讯"
             ]
+          },
+          "权重": {
+            "type": "integer",
+            "default": 0
+          },
+          "标题": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1
           }
         }
       },
       "NewInformation": {
+        "required": [
+          "标题"
+        ],
         "properties": {
           "content": {
             "type": "string"
@@ -547,6 +560,15 @@
               "产业动态",
               "热点资讯"
             ]
+          },
+          "权重": {
+            "type": "integer",
+            "default": 0
+          },
+          "标题": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1
           }
         }
       }
