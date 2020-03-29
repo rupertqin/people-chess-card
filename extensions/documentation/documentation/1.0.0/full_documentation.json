@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/29/2020 2:52:53 PM"
+    "x-generation-date": "03/29/2020 4:00:41 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3244,104 +3244,11 @@
         "properties": {
           "id": {
             "type": "string"
-          },
-          "Content": {
-            "type": "string"
-          },
-          "info": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "content": {
-                  "type": "string"
-                },
-                "hot_infos": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "works": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "block": {
-                  "type": "boolean",
-                  "default": false
-                },
-                "content": {
-                  "type": "string"
-                },
-                "type": {
-                  "type": "string",
-                  "default": "热点资讯",
-                  "enum": [
-                    "动态新闻",
-                    "热点资讯"
-                  ]
-                }
-              }
-            }
           }
         }
       },
       "NewHot-info": {
-        "properties": {
-          "Content": {
-            "type": "string"
-          },
-          "info": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "works": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "block": {
-                  "type": "boolean",
-                  "default": false
-                },
-                "content": {
-                  "type": "string"
-                },
-                "type": {
-                  "type": "string",
-                  "default": "热点资讯",
-                  "enum": [
-                    "动态新闻",
-                    "热点资讯"
-                  ]
-                }
-              }
-            }
-          }
-        }
+        "properties": {}
       },
       "Information": {
         "required": [
@@ -3354,30 +3261,13 @@
           "content": {
             "type": "string"
           },
-          "hot_infos": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "Content": {
-                  "type": "string"
-                },
-                "info": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "works": {
-                  "type": "component"
-                }
-              }
-            }
+          "type": {
+            "type": "string",
+            "default": "产业动态",
+            "enum": [
+              "产业动态",
+              "热点资讯"
+            ]
           }
         }
       },
@@ -3386,11 +3276,13 @@
           "content": {
             "type": "string"
           },
-          "hot_infos": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+          "type": {
+            "type": "string",
+            "default": "产业动态",
+            "enum": [
+              "产业动态",
+              "热点资讯"
+            ]
           }
         }
       },

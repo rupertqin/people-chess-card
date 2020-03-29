@@ -525,30 +525,13 @@
           "content": {
             "type": "string"
           },
-          "hot_infos": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "Content": {
-                  "type": "string"
-                },
-                "info": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "works": {
-                  "type": "component"
-                }
-              }
-            }
+          "type": {
+            "type": "string",
+            "default": "产业动态",
+            "enum": [
+              "产业动态",
+              "热点资讯"
+            ]
           }
         }
       },
@@ -557,11 +540,13 @@
           "content": {
             "type": "string"
           },
-          "hot_infos": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+          "type": {
+            "type": "string",
+            "default": "产业动态",
+            "enum": [
+              "产业动态",
+              "热点资讯"
+            ]
           }
         }
       }

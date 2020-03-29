@@ -13,10 +13,13 @@
     "content": {
       "type": "richtext"
     },
-    "hot_infos": {
-      "via": "info",
-      "collection": "hot-info",
-      "dominant": true
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "产业动态",
+        "热点资讯"
+      ],
+      "default": "产业动态"
     }
   }
 }
