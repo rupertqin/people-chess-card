@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "work",
+  "info": {
+    "name": "works",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "block": {
+      "type": "boolean",
+      "default": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "name": "类型",
+      "default": "热点资讯",
+      "enum": [
+        "动态新闻",
+        "热点资讯"
+      ]
+    }
+  }
+}

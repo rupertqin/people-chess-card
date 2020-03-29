@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "information",
   "info": {
-    "name": "资讯"
+    "name": "动态资讯"
   },
   "options": {
     "increments": true,
@@ -12,6 +12,11 @@
   "attributes": {
     "content": {
       "type": "richtext"
+    },
+    "hot_infos": {
+      "via": "info",
+      "collection": "hot-info",
+      "dominant": true
     }
   }
 }
