@@ -5,7 +5,7 @@
       "connector": "bookshelf",
       "settings": {
         "client": "postgres",
-        "database": "peoplechesscard",
+        "database": "peoplechesscard_2",
         "host": "127.0.0.1",
         "port": 5432,
         "username": "edz",

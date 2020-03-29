@@ -1,7 +1,7 @@
 {
   "kind": "collectionType",
   "connection": "default",
-  "collectionName": "information",
+  "collectionName": "news",
   "info": {
     "name": "动态资讯"
   },
