@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "sportnews",
+  "info": {
+    "name": "智力竞技"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "标题": {
+      "type": "string"
+    },
+    "内容": {
+      "type": "richtext"
+    },
+    "类型": {
+      "type": "enumeration",
+      "enum": [
+        "行业新闻",
+        "人民智力竞技"
+      ],
+      "default": "行业新闻"
+    },
+    "权重": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

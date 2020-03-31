@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sportnews",
+      "handler": "sportnews.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sportnews/count",
+      "handler": "sportnews.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sportnews/:id",
+      "handler": "sportnews.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sportnews",
+      "handler": "sportnews.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sportnews/:id",
+      "handler": "sportnews.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sportnews/:id",
+      "handler": "sportnews.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
