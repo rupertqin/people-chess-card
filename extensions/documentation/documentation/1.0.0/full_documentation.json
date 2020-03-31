@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/29/2020 8:25:07 PM"
+    "x-generation-date": "03/31/2020 10:33:33 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2722,10 +2722,10 @@
           "id": {
             "type": "string"
           },
-          "content": {
+          "内容": {
             "type": "string"
           },
-          "type": {
+          "类型": {
             "type": "string",
             "default": "产业动态",
             "enum": [
@@ -2749,10 +2749,10 @@
           "标题"
         ],
         "properties": {
-          "content": {
+          "内容": {
             "type": "string"
           },
-          "type": {
+          "类型": {
             "type": "string",
             "default": "产业动态",
             "enum": [

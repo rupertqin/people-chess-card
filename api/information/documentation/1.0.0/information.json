@@ -523,10 +523,10 @@
           "id": {
             "type": "string"
           },
-          "content": {
+          "内容": {
             "type": "string"
           },
-          "type": {
+          "类型": {
             "type": "string",
             "default": "产业动态",
             "enum": [
@@ -550,10 +550,10 @@
           "标题"
         ],
         "properties": {
-          "content": {
+          "内容": {
             "type": "string"
           },
-          "type": {
+          "类型": {
             "type": "string",
             "default": "产业动态",
             "enum": [
