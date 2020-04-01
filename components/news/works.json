@@ -2,26 +2,22 @@
   "connection": "default",
   "collectionName": "work",
   "info": {
-    "name": "works",
-    "icon": "align-left"
+    "name": "图文",
+    "icon": "allergies"
   },
   "options": {},
   "attributes": {
-    "block": {
-      "type": "boolean",
-      "default": false
+    "名称": {
+      "type": "string"
     },
-    "content": {
-      "type": "richtext"
+    "描述": {
+      "type": "text"
     },
-    "type": {
-      "type": "enumeration",
-      "name": "类型",
-      "default": "热点资讯",
-      "enum": [
-        "动态新闻",
-        "热点资讯"
-      ]
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }

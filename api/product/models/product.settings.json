@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "product",
+  "info": {
+    "name": "产品矩阵"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "添加产品": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.works"
+    }
+  }
+}
