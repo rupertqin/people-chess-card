@@ -18,6 +18,9 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "下载链接": {
+      "type": "string"
     }
   }
 }
