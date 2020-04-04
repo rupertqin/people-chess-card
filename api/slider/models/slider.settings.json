@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "slider",
+  "info": {
+    "name": "轮播图"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "图片": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "链接": {
+      "type": "string"
+    }
+  }
+}
