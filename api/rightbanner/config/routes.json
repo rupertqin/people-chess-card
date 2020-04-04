@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rightbanner",
+      "handler": "rightbanner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rightbanner",
+      "handler": "rightbanner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rightbanner",
+      "handler": "rightbanner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
