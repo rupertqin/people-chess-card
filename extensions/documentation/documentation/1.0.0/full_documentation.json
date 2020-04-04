@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/04/2020 11:48:29 PM"
+    "x-generation-date": "04/05/2020 12:02:04 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6393,6 +6393,9 @@
                 },
                 "链接": {
                   "type": "string"
+                },
+                "标题": {
+                  "type": "string"
                 }
               }
             }
@@ -6459,6 +6462,9 @@
                   }
                 },
                 "链接": {
+                  "type": "string"
+                },
+                "标题": {
                   "type": "string"
                 }
               }
@@ -6879,6 +6885,9 @@
                 },
                 "链接": {
                   "type": "string"
+                },
+                "标题": {
+                  "type": "string"
                 }
               }
             }
@@ -6945,6 +6954,9 @@
                   }
                 },
                 "链接": {
+                  "type": "string"
+                },
+                "标题": {
                   "type": "string"
                 }
               }
@@ -7019,6 +7031,9 @@
                 },
                 "链接": {
                   "type": "string"
+                },
+                "标题": {
+                  "type": "string"
                 }
               }
             }
@@ -7085,6 +7100,9 @@
                   }
                 },
                 "链接": {
+                  "type": "string"
+                },
+                "标题": {
                   "type": "string"
                 }
               }
