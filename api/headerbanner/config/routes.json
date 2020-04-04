@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/headerbanner",
+      "handler": "headerbanner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/headerbanner",
+      "handler": "headerbanner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/headerbanner",
+      "handler": "headerbanner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
