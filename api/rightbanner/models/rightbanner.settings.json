@@ -10,14 +10,10 @@
     "timestamps": true
   },
   "attributes": {
-    "图片": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload",
-      "required": false
-    },
-    "链接": {
-      "type": "string"
+    "pic": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.picture"
     }
   }
 }
