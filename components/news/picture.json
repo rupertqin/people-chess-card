@@ -15,10 +15,6 @@
     },
     "链接": {
       "type": "string"
-    },
-    "下架": {
-      "type": "boolean",
-      "default": false
     }
   }
 }
