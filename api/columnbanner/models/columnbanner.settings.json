@@ -10,7 +10,7 @@
     "timestamps": true
   },
   "attributes": {
-    "columnbanner": {
+    "pics": {
       "type": "component",
       "repeatable": true,
       "component": "news.picture"

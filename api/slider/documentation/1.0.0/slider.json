@@ -318,7 +318,7 @@
           "id": {
             "type": "string"
           },
-          "加图片": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -388,7 +388,7 @@
       },
       "NewSlider": {
         "properties": {
-          "加图片": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",

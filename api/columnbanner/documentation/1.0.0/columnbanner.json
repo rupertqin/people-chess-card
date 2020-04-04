@@ -318,7 +318,7 @@
           "id": {
             "type": "string"
           },
-          "columnbanner": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -388,7 +388,7 @@
       },
       "NewColumnbanner": {
         "properties": {
-          "columnbanner": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",

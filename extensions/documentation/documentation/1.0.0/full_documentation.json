@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/05/2020 12:02:04 AM"
+    "x-generation-date": "04/05/2020 12:31:23 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6334,7 +6334,7 @@
           "id": {
             "type": "string"
           },
-          "columnbanner": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -6404,7 +6404,7 @@
       },
       "NewColumnbanner": {
         "properties": {
-          "columnbanner": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -6826,7 +6826,7 @@
           "id": {
             "type": "string"
           },
-          "pic": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -6896,7 +6896,7 @@
       },
       "NewRightbanner": {
         "properties": {
-          "pic": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -6972,7 +6972,7 @@
           "id": {
             "type": "string"
           },
-          "加图片": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -7042,7 +7042,7 @@
       },
       "NewSlider": {
         "properties": {
-          "加图片": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",

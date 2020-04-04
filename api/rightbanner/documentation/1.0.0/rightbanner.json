@@ -318,7 +318,7 @@
           "id": {
             "type": "string"
           },
-          "pic": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",
@@ -388,7 +388,7 @@
       },
       "NewRightbanner": {
         "properties": {
-          "pic": {
+          "pics": {
             "type": "array",
             "items": {
               "type": "object",

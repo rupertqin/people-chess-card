@@ -10,7 +10,7 @@
     "timestamps": true
   },
   "attributes": {
-    "加图片": {
+    "pics": {
       "type": "component",
       "repeatable": true,
       "component": "news.picture"
