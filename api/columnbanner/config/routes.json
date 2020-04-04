@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/columnbanner",
+      "handler": "columnbanner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/columnbanner",
+      "handler": "columnbanner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/columnbanner",
+      "handler": "columnbanner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

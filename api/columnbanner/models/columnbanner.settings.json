@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "columnbanner",
+  "info": {
+    "name": "专栏banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "columnbanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.picture"
+    }
+  }
+}
