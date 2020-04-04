@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "pvprule",
+  "info": {
+    "name": "智力竞技标准规范"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "标题": {
+      "type": "string"
+    },
+    "权重": {
+      "type": "integer",
+      "default": 0
+    },
+    "内容": {
+      "type": "richtext"
+    }
+  }
+}

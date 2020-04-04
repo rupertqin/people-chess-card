@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pvprules",
+      "handler": "pvprule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pvprules/count",
+      "handler": "pvprule.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pvprules/:id",
+      "handler": "pvprule.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pvprules",
+      "handler": "pvprule.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pvprules/:id",
+      "handler": "pvprule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pvprules/:id",
+      "handler": "pvprule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
