@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "menu",
+  "info": {
+    "name": "导航"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "setting.link"
+    }
+  }
+}
