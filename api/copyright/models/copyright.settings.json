@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "copyright",
+  "info": {
+    "name": "版权声明"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "copyright1": {
+      "type": "string"
+    },
+    "copyrigh2": {
+      "type": "string"
+    }
+  }
+}
