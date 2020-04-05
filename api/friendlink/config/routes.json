@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/friendlink",
+      "handler": "friendlink.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/friendlink",
+      "handler": "friendlink.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/friendlink",
+      "handler": "friendlink.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

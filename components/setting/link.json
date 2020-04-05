@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_setting_links",
+  "info": {
+    "name": "link",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
