@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "siteinfo",
+  "info": {
+    "name": "网站信息"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
