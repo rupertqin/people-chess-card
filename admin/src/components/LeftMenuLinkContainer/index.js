@@ -85,7 +85,8 @@ const LeftMenuLinkContainer = ({ plugins }) => {
   return (
     <Wrapper>
       {Object.keys(menu).map(current => {
-        if (!SHOW_PLUGINS && ['plugins', 'general'].includes(current)) return null;
+        console.log(process.env.NODE_ENV)
+        if (process.env.NODE_ENV === 'production' && ['plugins', 'general'].includes(current)) return null;
         return <LeftMenuLinkSection
           key={current}
           links={menu[current].links}
