@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "headerbanner",
   "info": {
-    "name": "头部banner"
+    "name": "首页-顶部横幅"
   },
   "options": {
     "increments": true,

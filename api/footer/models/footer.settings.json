@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "footer",
   "info": {
-    "name": "底部信息"
+    "name": "底部-备案信息"
   },
   "options": {
     "increments": true,

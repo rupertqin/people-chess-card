@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "menu",
   "info": {
-    "name": "导航"
+    "name": "通用-导航文案"
   },
   "options": {
     "increments": true,

@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "columnbanner",
   "info": {
-    "name": "专栏banner"
+    "name": "首页-专栏入口"
   },
   "options": {
     "increments": true,
