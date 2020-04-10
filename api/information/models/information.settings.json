@@ -16,10 +16,10 @@
     "类型": {
       "type": "enumeration",
       "enum": [
-        "产业动态",
-        "热点资讯"
+        "热点资讯",
+        "产业动态"
       ],
-      "default": "产业动态"
+      "default": "热点资讯"
     },
     "权重": {
       "type": "integer",
