@@ -1,4 +1,6 @@
 'use strict';
+const moment = require('moment')
+
 
 /**
  * Lifecycle callbacks for the `information` model.
@@ -7,7 +9,11 @@
 module.exports = {
   // Before saving a value.
   // Fired before an `insert` or `update` query.
-  // beforeSave: async (model, attrs, options) => {},
+  beforeSave: async (model, attrs, options) => {
+    if (!attrs.publish_at) {
+      attrs.publish_at = moment().format("YYYY-MM-DD");
+    }
+  },
 
   // After saving a value.
   // Fired after an `insert` or `update` query.

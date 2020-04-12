@@ -20,4 +20,32 @@ module.exports = {
       omit(sanitizeEntity(entity, { model: strapi.models.information }), ['内容', 'content'])
     );
   },
+
+  async update(ctx) {
+    let entity;
+    if (ctx.is('multipart')) {
+      const { data, files } = parseMultipartData(ctx);
+      entity = await strapi.services.information.update(ctx.params, data, {
+        files,
+      });
+    } else {
+      entity = await strapi.services.information.update(
+        ctx.params,
+        ctx.request.body
+      );
+    }
+
+    return sanitizeEntity(entity, { model: strapi.models.information });
+  },
+
+  async create(ctx) {
+    let entity;
+    if (ctx.is('multipart')) {
+      const { data, files } = parseMultipartData(ctx);
+      entity = await strapi.services.information.create(data, { files });
+    } else {
+      entity = await strapi.services.information.create(ctx.request.body);
+    }
+    return sanitizeEntity(entity, { model: strapi.models.information });
+  },
 };
