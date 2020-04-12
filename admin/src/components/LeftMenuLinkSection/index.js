@@ -20,11 +20,38 @@ const LeftMenuLinksSection = ({
 }) => {
   const [search, setSearch] = useState('');
 
+  const collSortedNames = [
+    '动态资讯',
+    '智力竞技',
+    'CEST专题栏',
+    '打假专栏',
+    '智力竞技标准规范',
+  ];
+
+  const singleSortedNames = [
+    "产品矩阵", 
+    "首页-滚动Banner",
+    "首页-专栏入口", 
+    "首页-固定Banner", 
+    "底部-版权声明", 
+    "底部-备案信息", 
+    "底部-友情链接", 
+    "首页-顶部横幅", 
+    "通用-导航文案", 
+    "网站信息", 
+  ];
+
   const filteredList = sortBy(
     matchSorter(links, search, {
       keys: ['label'],
     }),
-    'label'
+    (c) => {
+      let idx = [...collSortedNames, ...singleSortedNames].indexOf(c.label)
+      if (idx === -1) {
+        idx = 9999
+      }
+      return idx
+    }
   );
 
   const getLinkDestination = link => {
