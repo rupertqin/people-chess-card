@@ -542,6 +542,9 @@
             "type": "string",
             "maxLength": 100,
             "minLength": 1
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -569,6 +572,9 @@
             "type": "string",
             "maxLength": 100,
             "minLength": 1
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       }
