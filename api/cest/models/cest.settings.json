@@ -19,6 +19,9 @@
     },
     "内容": {
       "type": "richtext"
+    },
+    "publish_at": {
+      "type": "date"
     }
   }
 }
