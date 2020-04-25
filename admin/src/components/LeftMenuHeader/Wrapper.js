@@ -24,7 +24,7 @@ const Wrapper = styled.div`
     letter-spacing: 0.2rem;
     color: $white;
 
-    background-image: url(${Logo});
+    background-image: url(http://212.129.147.96/img/top_logo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

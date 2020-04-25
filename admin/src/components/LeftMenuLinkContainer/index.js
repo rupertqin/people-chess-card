@@ -87,9 +87,15 @@ const LeftMenuLinkContainer = ({ plugins }) => {
       {Object.keys(menu).map(current => {
         console.log(process.env.NODE_ENV)
         if (process.env.NODE_ENV === 'production' && ['plugins', 'general'].includes(current)) return null;
+
+        // ignore Users
+        let links = menu[current].links;
+        if (current === 'collection_type') {
+          links = links.filter(l => l.label !== 'Users')
+        }
         return <LeftMenuLinkSection
           key={current}
-          links={menu[current].links}
+          links={links}
           section={current}
           location={location}
           searchable={menu[current].searchable}

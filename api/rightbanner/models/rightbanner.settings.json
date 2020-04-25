@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "rightbanner",
   "info": {
-    "name": "右边banner"
+    "name": "首页-固定Banner"
   },
   "options": {
     "increments": true,

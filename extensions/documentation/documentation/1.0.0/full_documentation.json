@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/05/2020 8:24:33 PM"
+    "x-generation-date": "04/12/2020 3:39:01 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7844,6 +7844,9 @@
           },
           "内容": {
             "type": "string"
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -7857,6 +7860,9 @@
             "default": 0
           },
           "内容": {
+            "type": "string"
+          },
+          "publish_at": {
             "type": "string"
           }
         }
@@ -8050,6 +8056,9 @@
           },
           "内容": {
             "type": "string"
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -8063,6 +8072,9 @@
             "default": 0
           },
           "内容": {
+            "type": "string"
+          },
+          "publish_at": {
             "type": "string"
           }
         }
@@ -8223,10 +8235,10 @@
           },
           "类型": {
             "type": "string",
-            "default": "产业动态",
+            "default": "热点资讯",
             "enum": [
-              "产业动态",
-              "热点资讯"
+              "热点资讯",
+              "产业动态"
             ]
           },
           "权重": {
@@ -8237,6 +8249,9 @@
             "type": "string",
             "maxLength": 100,
             "minLength": 1
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -8250,10 +8265,10 @@
           },
           "类型": {
             "type": "string",
-            "default": "产业动态",
+            "default": "热点资讯",
             "enum": [
-              "产业动态",
-              "热点资讯"
+              "热点资讯",
+              "产业动态"
             ]
           },
           "权重": {
@@ -8264,6 +8279,9 @@
             "type": "string",
             "maxLength": 100,
             "minLength": 1
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -8490,6 +8508,9 @@
           },
           "内容": {
             "type": "string"
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -8503,6 +8524,9 @@
             "default": 0
           },
           "内容": {
+            "type": "string"
+          },
+          "publish_at": {
             "type": "string"
           }
         }
@@ -8856,6 +8880,9 @@
           "权重": {
             "type": "integer",
             "default": 0
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -8878,6 +8905,9 @@
           "权重": {
             "type": "integer",
             "default": 0
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },

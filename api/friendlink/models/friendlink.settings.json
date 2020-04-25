@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "friendlinks",
   "info": {
-    "name": "友情链接"
+    "name": "底部-友情链接"
   },
   "options": {
     "increments": true,

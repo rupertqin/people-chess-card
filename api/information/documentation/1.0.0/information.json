@@ -528,10 +528,10 @@
           },
           "类型": {
             "type": "string",
-            "default": "产业动态",
+            "default": "热点资讯",
             "enum": [
-              "产业动态",
-              "热点资讯"
+              "热点资讯",
+              "产业动态"
             ]
           },
           "权重": {
@@ -542,6 +542,9 @@
             "type": "string",
             "maxLength": 100,
             "minLength": 1
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -555,10 +558,10 @@
           },
           "类型": {
             "type": "string",
-            "default": "产业动态",
+            "default": "热点资讯",
             "enum": [
-              "产业动态",
-              "热点资讯"
+              "热点资讯",
+              "产业动态"
             ]
           },
           "权重": {
@@ -569,6 +572,9 @@
             "type": "string",
             "maxLength": 100,
             "minLength": 1
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       }

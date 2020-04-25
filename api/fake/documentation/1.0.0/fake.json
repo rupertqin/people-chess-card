@@ -531,6 +531,9 @@
           },
           "内容": {
             "type": "string"
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -544,6 +547,9 @@
             "default": 0
           },
           "内容": {
+            "type": "string"
+          },
+          "publish_at": {
             "type": "string"
           }
         }

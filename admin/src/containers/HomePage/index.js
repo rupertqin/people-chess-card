@@ -88,7 +88,6 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
         onClick: handleClick,
         type: 'documentation',
       };
-
   return (
     <>
       <FormattedMessage id="HomePage.helmet.title">
@@ -109,7 +108,16 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
               </FormattedMessage>
               {hasAlreadyCreatedContentTypes ? (
                 <FormattedMessage id="app.components.HomePage.welcomeBlock.content.again">
-                  {msg => <P>{msg}</P>}
+                  {msg => <div>
+                    <p>{msg} </p>
+                    <p style={{ marginTop: 30 }}>
+                      人民棋牌是中国领先的综合在线棋牌游戏开发商、发行商和运营商，同时专注于手机及PC 游戏并拥有强大的本地化游戏开发能力。我们致力于为我们的玩家小区创建社交平台，并专为在线棋牌游戏竞技打造智力运动竞技平台。根据艾瑞咨询资料，按2017年于中国的收益计，我们名列前六大本地化在线棋牌游戏公司。
+                    </p>
+                    <p>我们的游戏覆盖中国19个省份及自治区以及84个地级市，令我们成为中国本地化在线棋牌游戏的领先参与者之一。</p>
+                    <p>
+                      作为领先的在线棋牌游戏开发商、发行商和运营商，我们在开发、发行和运营PC游戏和手机游戏方面往绩斐然。在开发兼具鲜明本地特色和社交功能的本地化在线游戏方面拥有雄厚的实力。拥有一体化游戏开发、发行及运营模式及经验丰富的内部游戏开发团队。
+                    </p>
+                  </div>}
                 </FormattedMessage>
               ) : (
                 <FormattedMessage id="HomePage.welcome.congrats">

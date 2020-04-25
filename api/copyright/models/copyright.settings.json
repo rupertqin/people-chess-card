@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "copyright",
   "info": {
-    "name": "版权声明"
+    "name": "底部-版权声明"
   },
   "options": {
     "increments": true,

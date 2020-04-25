@@ -539,6 +539,9 @@
           "权重": {
             "type": "integer",
             "default": 0
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       },
@@ -561,6 +564,9 @@
           "权重": {
             "type": "integer",
             "default": 0
+          },
+          "publish_at": {
+            "type": "string"
           }
         }
       }

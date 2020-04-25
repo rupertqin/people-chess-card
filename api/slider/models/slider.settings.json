@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "slider",
   "info": {
-    "name": "轮播图"
+    "name": "首页-滚动Banner"
   },
   "options": {
     "increments": true,
