@@ -50,7 +50,7 @@ const LeftMenuFooter = ({ version }) => {
         />
         <a
           key="website"
-          href="/"
+          href="http://people78.cn"
           target="_blank"
           rel="noopener noreferrer"
         >
