@@ -12,7 +12,7 @@ import { ActionContainer, Truncate, Truncated } from './styledComponents';
 
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 
-const dateToUtcTime = date => moment.parseZone(date);
+const dateToUtcTime = date => moment(date);
 
 const getDisplayedValue = (type, value, name) => {
   switch (toLower(type)) {
